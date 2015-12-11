@@ -22,7 +22,7 @@ All clip shortcuts are prepended with fd (FounDation...I dunno). You could proba
 
 
 
-fddoc - Creates an html5 document complete with js and css files linked and a style.css for your own custom stylesheet, uncomment first!
+fddoc - Creates an html5 document with js and css files linked
 
 fdbower - Creates a new document with all of the linked bower components, ready to go. Specifically meant for use with a CodeKit Foundation Installation.
 
@@ -48,7 +48,7 @@ fdbtn - Creates a button element
 
 fdbtngroup - Creates a button group section
 
-fdclosebtn - Creates a close button -- ProTip: Use this with fdcallout!
+fdclosebtn - Creates a close button -- ProTip: Use this inside of an fdcallout!
 
 fdslider - Creates a range slider element
 
@@ -98,13 +98,13 @@ fdorbit - Creates an orbit slider section
 
 fdprogress - Creates a progress bar element
 
-fdthumb - Creats an thumbnail img element
+fdthumb - Creats a thumbnail img element
 
 fdtooltip - Creates the attributes for a tooltip element
 
 fdformerror - Creates a form error element
 
-fdinterchange - Creates and interchange element -- ProTip: Change the <div> tag for an <img> tag for responsive images
+fdinterchange - Creates and interchange element -- ProTip: Change the `<div>` tag for an `<img>` tag for responsive images
 
 fdsticky - Creates a sticky element
 
