@@ -1,7 +1,7 @@
-F5-Clips
+Foundation Clips for Coda
 ========
 
-Coda 2 Clips library for Foundation 5 CSS Framework.
+Coda 2 Clips library for Foundation CSS Framework.
 
 Speed up your Foundation work flow by using Coda 2's clips and this library! Prototype websites faster than you can imagine. 
 
@@ -10,15 +10,7 @@ Installation
 
 -Download or clone this repository.
 
--Open Coda then open the right side menu.
-
--Click on the home icon and find the Clips menu.
-
--Click the gear icon on the bottom of the right side menu or right click the right side menu and choose import clips.
-
--Navigate to the Foundation.clips file and choose import.
-
--Marvel at how much time you save.
+-Navigate to the downloaded folder and double click `Foundation.clips` to install
 
 -???
 
@@ -33,8 +25,6 @@ All clip shortcuts are prepended with fd (FounDation...I dunno). You could proba
 fddoc - Creates an html5 document complete with js and css files linked and a style.css for your own custom stylesheet, uncomment first!
 
 fdbower - Creates a new document with all of the linked bower components, ready to go. Specifically meant for use with a CodeKit Foundation Installation.
-
-fdlaravel - Creates a new document with all of the linked bower components, ready to go for a Laravel layout.
 
 fdrow - Creates a new div element with class of row
 
@@ -54,88 +44,72 @@ fdleftsb - Creates a row and 2 columns, left column spans 4 grid column spaces a
 
 fdblock - Creates a new block grid element
 
-fdinterchange - Creates a new interchange img tag
+fdbtn - Creates a button element
 
-fdoffcanvas - Creates a complete Offcanvas menu with Lorem text in the content area
+fdbtngroup - Creates a button group section
 
-fdtopbar - Creates a new top bar nav element
+fdclosebtn - Creates a close button -- ProTip: Use this with fdcallout!
 
-fdtopbarsticky - Creates a new top bar nav element with the contain-to-grid and sticky classes
+fdslider - Creates a range slider element
 
-fdtopbarform - Creates a top bar li element with form elements inside of it. Add to any existing top bar ul
+fdcheck - Creates a check box switch element
 
-fdtopbarbtn - Creates a top bar li element with a button inside of it. Add to any existing top bar ul
+fdradio - Creates a radio group switch element
 
-fdiconbar - Creates a new icon bar element
+fdmenu - Creates a menu section
 
-fdsidenav - Creates a new side nav element
+fdmenudrop - Creates a dropdown menu section
 
-fdmagellan - Creates a new magellan nav bar with content sections
+fdmenudrill - Creates a drilldown menu section
 
-fdsubnav - Creates a new sub nav element
+fdmenuacc - Creates an accordion menu section
 
-fdbreadcrumbs - Creates a new breadcrumb element
+fdtopbar - Creates a fully responsive top bar section
 
-fdpagination - Creates a new pagination element
+fdmagellan - Creates a Magellan section
 
-fdorbit - Creates a new orbit slider element with 3 slides
+fdpagination - Creates a pagination section
 
-fdclearing - Creates a new clearing light box element with 4 items
+fdbreadcrumbs - Creates a breadcrumbs section
 
-fdform - Creates a new form using Abide validation as well as data-equalto in the password repeat field
+fdaccordion - Creates an accordion section
 
-fdformpre - Creates a new prefixed form element
+fdcallout - Creates a callout element
 
-fdformpost - Creates a new postfixed form element
+fddropdown - Creates a dropdown button element
 
-fdformpostbtn - Creates a new postfixed form element with a button
+fdmediaobj - Creates a media object section
 
-fdformerror -  Creates a new <small> element with error class for Abide validation
+fdoffcanvas - Creates an off-canvas section
 
-fdcheckbox - Creates a new switch checkbox element
+fdreveal - Creates a reveal modal section
 
-fdradio - Creates a new switch radio element
+fdtable - Creates a table section
 
-fdrange - Creates a new range slider element
+fdtabs - Creates a tab section
 
-fdrangevert - Creates a new vertical slider element
+fdbadge - Creates a badge element
 
-fdbutton - Creates the class that can be attached to any button-able element (div, a, button, etc.)
+fdflex - Creates a flex video container
 
-fdbtngroup - Creates a new button group element
+fdlabel - Creates a label element
 
-fdbtnbar - Creates a new button bar element
+fdorbit - Creates an orbit slider section
 
-fdsplitbtn - Creates a new split-button element
+fdprogress - Creates a progress bar element
 
-fddropbtn - Creates a new drop down button element
+fdthumb - Creats an thumbnail img element
 
-fdinlinelist - Creates a new inline list element
+fdtooltip - Creates the attributes for a tooltip element
 
-fdlabel - Creates a new label element
+fdformerror - Creates a form error element
 
-fdreveal - Creates a new reveal element and a link to show the created modal
+fdinterchange - Creates and interchange element -- ProTip: Change the <div> tag for an <img> tag for responsive images
 
-fdalert - Creates a new alert element
+fdsticky - Creates a sticky element
 
-fdtooltips - Creates a new tool tip element
+fdmedia - Sass mixin for media queries
 
-fdjoyride - Creates a complete Joyride tour, with the unordered list and the jQuery initializer
+fdgridrow - Sass mixin for adding a grid row
 
-fddropdowns - Creates a dropdown element
-
-fdpricingtable - Creates a new pricing table element
-
-fdmeter - Creates a new meter element
-
-fdtable - Creates a new table element
-
-fdaccordion - Creates a new accordion element
-
-fdtabshoriz - Creates a new horizontal tabs element
-
-fdtabsvert - Creates a new vertical tabs element
-
-fdequalizer - Creates 3 div panels with the equalizer data attributes
-
-fdreflow - Add to your JS file to reflow a particular foundation script component
+fdgridcol - Sass mixin for adding a grid column
